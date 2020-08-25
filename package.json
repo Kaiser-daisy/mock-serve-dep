@@ -1,0 +1,43 @@
+{
+  "name": "mock-serve-dep",
+  "version": "1.0.0",
+  "description": "基于umi-serve生产环境使用mock服务",
+  "main": "src/index.js",
+  "bin": {
+    "mock-serve": "src/index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kaiser-daisy/mock-serve-dep.git"
+  },
+  "keywords": [
+    "umi",
+    "mock"
+  ],
+  "dependencies": {
+    "cors": "^2.8.5",
+    "@babel/preset-typescript": "^7.10.4",
+    "@babel/register": "7.10.5",
+    "babel-plugin-module-resolver": "4.0.0",
+    "babel-preset-umi": "1.8.4",
+    "boxen": "4.2.0",
+    "chalk": "2.4.2",
+    "compression": "^1.7.4",
+    "express": "^4.17.1",
+    "serve-static": "latest",
+    "umi-core": "^1.9.9",
+    "umi-mock": "^2.1.4",
+    "umi-utils": "1.7.2",
+    "update-notifier": "4.1.1",
+    "yargs-parser": "13.1.1"
+  },
+  "author": "lishuai",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Kaiser-daisy/mock-serve-dep/issues"
+  },
+  "homepage": "https://github.com/Kaiser-daisy/mock-serve-dep#readme"
+}
